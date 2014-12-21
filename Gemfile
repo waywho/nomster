@@ -35,9 +35,12 @@ end
 
  gem 'bootstrap-sass', '~> 3.3.1'
 
+ gem 'simple_form'
+
  gem 'autoprefixer-rails'
 
  gem 'kaminari'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
