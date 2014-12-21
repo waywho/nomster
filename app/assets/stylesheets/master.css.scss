@@ -1,3 +1,5 @@
+
+
 .booyah-box {
 	-moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
 	-webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -20,10 +22,17 @@ body {
 	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.navbar .navbar-inverse {
+.navbar-inverse {
 	background: url('/assets/congruent_outline.png');
 	border-radius: 0;
-	-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.73);
-	-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.73);
-	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.73);
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.60);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.60);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.60);
 }
+
+.navbar-inverse .navbar-brand {
+	color: #CDE74A;
+	font-family: 'chunkfiveroman', sans-serif;
+	font-size: 26px;
+}
+
