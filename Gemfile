@@ -37,6 +37,8 @@ end
 
  gem 'simple_form'
 
+ gem 'devise', '>= 3.2.4'
+
  gem 'autoprefixer-rails'
 
  gem 'kaminari'
