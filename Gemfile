@@ -33,16 +33,19 @@ group :doc do
 
 end
 
- gem 'bootstrap-sass', '~> 3.3.1'
+gem 'bootstrap-sass', '~> 3.3.1'
 
- gem 'simple_form'
+gem 'simple_form'
 
- gem 'devise', '>= 3.2.4'
+gem 'devise', '>= 3.2.4'
 
- gem 'autoprefixer-rails'
+gem 'autoprefixer-rails'
 
- gem 'kaminari'
+gem 'kaminari'
 
+gem 'geocoder' 
+
+gem 'figaro', ">= 1.0.0"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
