@@ -41,3 +41,10 @@ body {
 #pagination {
 	clear: both;
 }
+
+.field_with_errors {
+	color: #ff3333;
+	backbground-color: #FFEEEE;
+	border-radius: 3px;
+	padding: 8px;
+}
