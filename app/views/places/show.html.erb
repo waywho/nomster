@@ -88,6 +88,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 </div>
 <% end %>
 
+<% if current_user && current_user == @place.user %>
 <div class = "booyah-box col-xs-10 col-xs-offset-1">
 <h1>Add a photo</h1>
   <%= simple_form_for @photo, :url => place_photos_path(@place) do |f| %>
@@ -97,14 +98,16 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <%= f.submit 'Add a photo', :class => 'btn btn-primary' %>
   <% end %>
 </div>
-
+<% end %>
 <div class="booyah-box col-xs-10 col-xs-offset-1">
 <h1>Photos</h1>
 
 <% @place.photos.each do |photo| %>
 <div>
   <%= image_tag photo.picture %>
+  <br />
   <%= photo.caption %>
+  <br />
 </div>
 <% end %>
 </div>
